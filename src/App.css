@@ -1,0 +1,18 @@
+@import "tailwindcss";
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.landing-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+@media (min-width: 768px) {
+  .landing-container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
